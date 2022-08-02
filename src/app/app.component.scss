@@ -57,7 +57,18 @@ mat-toolbar-row {
     }
 }
 
+.mat-toolbar.mat-primary {
+    background: #3a66b7;
+    color: #fff;
+}
+
 .router-container {
     padding-left: 56px;
+    padding-right: 56px;
     padding-top: 16px;
+}
+
+.logo {
+    max-width: 100%;
+    height: 48px;
 }
