@@ -9,7 +9,7 @@ import { User } from 'src/models/user.class';
 export class DialogAddUserComponent implements OnInit {
 
   user = new User();
-  birthDate = Date;
+  birthDate : Date;
 
   constructor() { }
 
